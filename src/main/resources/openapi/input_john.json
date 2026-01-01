@@ -1,0 +1,33 @@
+{
+  "customerId": "C123456",
+  "name": {
+    "firstName": "Bikram",
+    "middleName": "Singh",
+    "lastName": "Kaphle"
+  },
+  "dateOfBirth": "1995-07-21",
+  "gender": "Male",
+  "contact": {
+    "email": "bikram@example.com",
+    "phone": "+1-718-555-1023"
+  },
+  "address": {
+    "street": "123 Main Street",
+    "apartment": "Apt 4B",
+    "city": "New York",
+    "state": "NY",
+    "zipCode": "10001",
+    "country": "USA"
+  },
+  "identification": {
+    "type": "DriverLicense",
+    "number": "NY1234567",
+    "issuedDate": "2020-08-15",
+    "expiryDate": "2028-08-15"
+  },
+  "preferences": {
+    "language": "English",
+    "contactMethod": "Email",
+    "marketingOptIn": true
+  }
+}
