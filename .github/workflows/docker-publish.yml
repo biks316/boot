@@ -10,7 +10,8 @@ env:
   AWS_REGION: ${{ secrets.AWS_REGION }}
   AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
   ECR_REPOSITORY: boot
-  IMAGE_TAG: latest1
+  # Use a unique tag per run: run id plus commit sha
+  IMAGE_TAG: ${{ github.run_id }}-${{ github.sha }}
 
 jobs:
   build-and-push:
