@@ -29,7 +29,7 @@ public class GenerationApplication {
 		
 		
 		 System.out.print(copy.getAddress());
-		 System.out.println("hello testing in aws");
+		 System.out.println("hello testing in aws..");
 		
 	}
 
